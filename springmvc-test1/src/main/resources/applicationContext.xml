@@ -30,7 +30,7 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="mappingResources"><!-- mappingResouces属性用来列出全部映射文件 -->
             <list><!-- 以下用来列出Hibernate映射文件 -->
-                <!--<value>com/centling/entity/UserEntity.hbm.xml</value>-->
+                <value>com/centling/entity/UserEntity.hbm.xml</value>
             </list>
         </property>
         <!-- 定义Hibernate的SessionFactory的属性 -->
